@@ -1,0 +1,59 @@
+/*normalize*/
+@import url("normalize.css");
+
+/*fonts*/
+@font-face {
+  font-family: 'Merriweather', serif;
+  src: url("https://fonts.googleapis.com/css?family=Merriweather");
+}
+
+/*style*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background: url("../img/wallp.jpg") no-repeat bottom fixed;
+  background-size: cover;
+  font-size: 18px;
+  font-family: 'Merriweather';
+}
+
+main{
+  height: 100%;
+  width:100%;
+}
+
+.greeting{
+  color: yellow; /*dar pasirinksiu*/
+  float: right;
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: green; /*dar pasirinksiu*/
+  opacity: .6;
+  border-radius: 15px;
+  padding: 15px;
+  margin:15px;
+}
+
+p{
+  opacity: 1;
+}
+
+.snowfl {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+  position: absolute;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.snowfl:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
