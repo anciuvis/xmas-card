@@ -27,11 +27,11 @@ main {
 
 .greeting {
   color: #fcb932;
-  position: absolute;
+  position: fixed;
   min-width: 380px;
   min-height: 70px;
   top: 17%;
-  left: 40%;
+  left: 35%;
   }
 
 h2 {
@@ -58,11 +58,10 @@ p {
 .white-snowfl {
   width: 60px;
   height: 60px;
-  margin: 30px;
   position: absolute;
   z-index: 1;
-  right: 15px;
-  top: 10px;
+  right: 5%;
+  top: 5%;
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
   transition: width 2s, height 2s, transform 2s;
 }
@@ -146,7 +145,7 @@ p {
   width: 0;
   height: 0;
   border-right: 600px solid transparent;
-  border-bottom: 600px solid rgba(129,103,168,.4);
+  border-bottom: 400px solid rgba(129,103,168,.4);
 }
 
 footer {
